@@ -9,6 +9,6 @@ in `mycroft.conf`
 
 ```javascript
   "language": {
-    "detection_module": "ovos-lang-detector-fasttext-plugin"
+    "detection_module": "ovos-lang-detector-fasttext-local-server-plugin"
   },
 ```
