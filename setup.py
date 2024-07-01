@@ -22,14 +22,14 @@ PLUGIN_ENTRY_POINT = (
 
 setup(
     name='ovos-lang-detector-fasttext-local-server-plugin',
-    version='0.0.0a2',
+    version='0.0.1a1',
     packages=['ovos_lang_detector_fasttext_local_server_plugin'],
     url='https://github.com/branep/ovos-lang-detector-fasttext-local-server-plugin',
     license='apache-2',
     author='JarbasAI',
     include_package_data=True,
     install_requires=required("requirements.txt"),
-    author_email='jarbasai@mailfence.com',
+    author_email='',
     description='average plugin classifications for language detection',
     entry_points={'neon.plugin.lang.detect': PLUGIN_ENTRY_POINT}
 )
