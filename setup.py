@@ -17,12 +17,14 @@ def required(requirements_file):
 
 
 PLUGIN_ENTRY_POINT = (
-    'ovos-lang-detector-fasttext-local-server-plugin=ovos_lang_detector_fasttext_local_server_plugin:FastTextLangDetectPlugin'
+    'ovos-lang-detector-fasttext-local-server-plugin=ovos_lang_detector_fasttext_local_server_plugin:FastTextLangServerDetectPlugin'
 )
 
 setup(
     name='ovos-lang-detector-fasttext-local-server-plugin',
-    version='0.0.1a2',
+    version='0.0.1a3',
+
+    
     packages=['ovos_lang_detector_fasttext_local_server_plugin'],
     url='https://github.com/branep/ovos-lang-detector-fasttext-local-server-plugin',
     license='apache-2',
